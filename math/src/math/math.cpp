@@ -1,4 +1,4 @@
-#include "include/math/math.h"
+#include <math/math.h>
 
 bool isPrime( int integer) {
    if(integer == 2) return true;

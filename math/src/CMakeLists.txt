@@ -1,3 +1,5 @@
-add_library(math math/math.cpp)
+add_subdirectory(math)
 
-target_include_directories(math PUBLIC include)
+# main code
+add_executable(main main.cpp)
+target_link_libraries(main PRIVATE math)

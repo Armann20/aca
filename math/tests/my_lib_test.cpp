@@ -1,4 +1,4 @@
-#include "../src/math/include/math/math.h"
+#include <math/math.h>
 #include <gtest/gtest.h>
 
 TEST(math_gtests, TestIntegerOne_Zero)
